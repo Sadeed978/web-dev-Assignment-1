@@ -50,4 +50,20 @@ li{
     font-size: 50px;
     color: black;
 }
+.footer{
+    background-color: white;
+    color:#625B71 ;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color:#625B71 ;
+}
+#blogo{
+    font-size: 50px;
+}
 
