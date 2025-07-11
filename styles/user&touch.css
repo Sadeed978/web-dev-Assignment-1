@@ -1,0 +1,53 @@
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+} 
+.Users{
+   text-align: center;
+   background-color:#EADDFF;
+   margin:50px 200px 30px 90px;
+   padding:20px; 
+}
+.Users h1{
+    font-size: 40px;
+    color: black;
+}
+.Users ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ausers{
+    color: #625B71;
+    font-size: 20px;
+    
+}
+.KM{
+
+    color: blue;
+    font-size: 70px;
+}
+.from label,button{
+    Display :block;
+   font-size: 20px;
+   
+}
+.from{
+    border:None;
+    padding: 20px;
+    margin: 50px 200px 30px 90px;
+}
+.touch{
+    Display: flex;
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 250px 0px 250px;
+    padding: 20px;
+}
+.touch h1{
+    font-size: 50px;
+    color: black;
+}
+

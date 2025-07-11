@@ -1,3 +1,11 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .logo{
    color: #4E47FF; 
 }
@@ -12,10 +20,7 @@ nav{
     display:flex;
     justify-content: space-between;
 }
-li{
-    list-style: none;
-    margin-right: 20px;
-} 
+
 .sign{
     color: white;
     background-color: #4E47FF;
@@ -41,16 +46,18 @@ li{
     font-size: 30px;
 }
 .content{
+    border: white 2px solid;
+    background-color:white;
     display: flex;
     justify-content: space-between;
-    margin : 10px 20px;
+    margin : 50px 150px;
 }
 .content h2{
     font-size:30px ;
 }
 .content p{
     font-size: 15px;
-    color: #C3C8CD;
+    color: #625B71;
 }
 .imge{
     margin: 20px;

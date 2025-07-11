@@ -1,36 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB-FLOW-A01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/user&touch.css">
 </head>
-<body>
+
+<body class="open-sans-normal">
     <header>
         <div class="header">
-         <nav> 
-            <h3 class="logo">LOGO </h3>
-            <li><a href=""><button class="sign">sign up</button></a></li>
-        </nav>
-        <div class="banner">
-            <h1>Cool Dark UI Template for <br>webflow Agencies!</h1>
-            <li><a href=""><button class="focus" >Stay Focus</button></a></li>
+            <nav>
+                <h3 class="logo">LOGO </h3>
+                <li><a href=""><button class="sign">sign up</button></a></li>
+            </nav>
+            <div class="banner">
+                <h1>Cool Dark UI Template for <br>webflow Agencies!</h1>
+                <li><a href=""><button class="focus">Stay Focus</button></a></li>
     </header>
     <main>
-       <section class="content">
-        <div class="text">
-            <h2>See it in Action</h2>
-            <p>Explore the live preview and imagine your brand <br> this bold new look</p>
-            <li><a href=""><button class="focus">Launce Live Preview</button></a></li>
-        </div>
-        <div  >
-            <img  class="imge" src="Assets/wc-mini.png" alt="Preview Image">
-        </div>
-       </section>
+        <section class="content">
+            <div class="text">
+                <h2>See it in Action</h2>
+                <p>Explore the live preview and imagine your brand <br> this bold new look</p>
+                <li><a href=""><button class="focus">Launce Live Preview</button></a></li>
+            </div>
+            <img class="imge" src="Assets/wc-mini.png" alt="Preview Image">
+           
+        </section>
+        <section class="Users">
+            <h1>Joined Thousands of Productive Users</h1>
+            <ul class="KM">
+                <li>50k</li>
+                <li>2M+</li>
+                <li>95%</li>
+            </ul>
+             <ul class="ausers">
+                <li>Action users</li>
+                <li>Focus Sessions</li>
+                <li>satisfaction rate</li>
+            </ul>
+        </section>
+        <section class="touch">
+          <h1>Let's Get in <br>Touch </h1> 
+          
+        <form>
+            <fieldset class="from">
+                <label for="email">Email:</label>
+                <input type="email"  placeholder="example@email.com" id="email"  name="email" required>
+                <label for="name">Name:</label>
+                <input type="text" placeholder="full name" id="name" name="name" required>
+                <label for="message">Message:</label>
+                <textarea  placeholder="Write your message...." id="message" name="message" rows="4" required></textarea>
+                <button class="focus" type="submit">"Get in Touch"</button>
+            </fieldset>
+        </form>
+        </section>
     </main>
     <footer>
 
+
     </footer>
 </body>
+
 </html>
