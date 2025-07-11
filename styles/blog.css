@@ -7,7 +7,8 @@
     "wdth" 100;
 }
 .logo{
-   color: #4E47FF; 
+   color: #4E47FF;
+   font-size: 30px; 
 }
 .header{
     background-image:url(../Assets/Hero-bg.png);
@@ -19,6 +20,8 @@
 nav{
     display:flex;
     justify-content: space-between;
+    margin: 0 100px;
+    align-items: center;
 }
 
 .sign{
